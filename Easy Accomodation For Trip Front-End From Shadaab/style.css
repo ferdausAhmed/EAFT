@@ -1,0 +1,385 @@
+*{
+
+	padding : 0;
+	margin : 0;
+	font-family: Century Gothic;
+
+}
+
+header{
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+	height:150vh;
+	background-size: cover;
+    background-position: center;
+}
+
+ul{
+
+   float:right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+
+ul li{
+    display: inline-block;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-weight: bold;
+	font-size: 20px;
+	display:block;
+}
+
+ul li a:hover{
+
+	background-color: #1E90FF;
+	color:#fff;
+}
+ul li.active a{
+
+	background-color: #1E90FF;
+	color:#fff;
+}
+
+ul li ul li{
+
+	display: none;
+	
+}
+ul li:hover ul li{
+
+	display:block;
+	
+
+}
+
+.logo{
+
+	display:table-cell;
+	vertical-align: middle;
+	position: absolute;
+}
+
+.logo img{
+
+float left;
+width: 100px;
+height:auto;
+}
+
+/*.main{
+
+	max-width: 1200px;
+	margin:auto;
+}*/
+
+.logo_menu{
+
+	display:table;
+	width:100%;
+	box-sizing: border-box;
+}
+
+.mymenu{
+
+    display:table-cell;
+	vertical-align: middle;
+}
+
+.title{
+
+	position: absolute;
+	top:40%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.title h1{
+
+	font-size: 70px; 
+	color:#fff;
+}
+
+.button{
+
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -40%);
+	
+
+
+}
+
+.btn{
+
+	border: 2px solid #fff;
+	padding: 10px 40px;
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.btn:hover{
+
+	background-color: #1E90FF;
+	color:#fff;
+	font-size: 25px;
+}
+
+.loginbox{
+
+	width: 420px;
+	height: 450px;
+	background: #000;
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.loginlogo{
+
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+h1{
+
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+
+}
+
+.loginbox p{
+
+	margin:0;
+	padding:0;
+	font-weight: bold;
+}
+
+.loginbox input{
+
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+
+	border:none;
+	border-bottom: 1px solid #4169E1;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#4169E1;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+
+	border:none;
+	outline:none;
+	height:40px;
+	background:	#1E90FF;
+	color:#fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+
+
+	cursor: pointer;
+	background: #FF8C00;
+	color: #fff;
+}
+
+.loginbox a{
+
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 36px;
+	color: 	#A9A9A9;
+}
+.loginbox a:hover{
+
+	color:#FF8C00;
+}
+
+.signupbox{
+
+	width: 600px;
+	height: 850px;
+	background: #F5F5F5;
+	color:#000;
+	top:70%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.signupbox p{
+
+	margin:0;
+	padding:0;
+	font-weight: bold;
+}
+
+.signupbox input[type="text"], input[type="password"], input[type="submit"], input[type="date"]{
+
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.signupbox input[type="text"], input[type="password"]{
+
+	border:none;
+	border-bottom: 1px solid #4169E1;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#4169E1;
+	font-size: 16px;
+}
+
+.signupbox input[type="submit"]{
+
+	border:none;
+	outline:none;
+	height:40px;
+	background:	#1E90FF;
+	color:#fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.signupbox input[type="submit"]:hover{
+
+
+	cursor: pointer;
+	background: #FF8C00;
+	color: #fff;
+}
+
+.signupbox a{
+
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 36px;
+	color: 	#A9A9A9;
+	font-weight: bold;
+
+
+}
+.signupbox a:hover{
+
+	color:#FF8C00;
+}
+
+.signupbox input[type="radio"]{
+
+margin-bottom: 20px;
+
+}
+
+.about-para{
+
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 28px;
+	color: 	#fff;
+	
+}
+
+.about-header{
+
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 28px;
+	color: 	#fff;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+.file-upload-input{
+
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 28px;
+	color: 	#fff;
+}
+
+.file-upload-content{
+
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 28px;
+	color: #fff;
+}
+
+.image-upload-wrap{
+
+	text-align: center;
+	padding: 50px 0px;
+}
+
+.file-upload-input{
+
+	padding-right: 50px;
+}
+
+.h1ofProfile{
+
+	text-decoration: none;
+	line-height: 20px;
+	color: #fff;
+}
+
+.pro_info{
+
+	text-decoration: none;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.main-para-header{
+
+	text-decoration: none;
+	font-size: 30px;
+	color: #000;
+	font-weight: bold; 
+}
+}
